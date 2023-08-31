@@ -21,7 +21,7 @@ local plrcount = #game.Players:GetPlayers()
 --//\\--
  
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/UI-Library/main/Source/Kavo.lua"))()
-local Window = Library.CreateLib("DiamondHub - Premium ⭐ | ❓ LUCKY BLOCKS Battlegrounds", "BloodTheme")
+local Window = Library.CreateLib("DiamondHub - Premium ⭐ | Breaking Point", "BloodTheme")
  
 --// Toggle Button \\--
  
