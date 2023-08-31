@@ -81,17 +81,13 @@ s1:NewLabel("For Support ⬇️")
 s1:NewLabel("https://discord.gg/pEfNGEANR5")
  
 s1:NewLabel("https://discord.gg/PMCZs7ZMvR")
- 
-s2:NewButton("Kill everyone with a gun","For Kill everyone with a gun", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/diamondrobux/DiamondHub-Breaking-Point/main/DiamondHub-Breaking-Point-kill%20everyone"))()
-end)
- 
+
 s3:NewButton("ESP Players","For ESP Players", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zachisfunny/esp-unversal/main/script"))()
 end)
  
 s3:NewButton("Fly","For Fly", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/12PQEny3"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/ENsACCP1"))()
 end)
  
 s4:NewTextBox("Set WalkSpeed","WalkSpeed", function(v)
