@@ -87,8 +87,24 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zachisfunny/esp-unver
 end)
  
 s3:NewButton("Fly","For Fly", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/ENsACCP1"))()
-end)
+wait(0.5)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Script Active Now ✅" ;
+    Text = "Thanks For Useing DiamondHub https://discord.gg/pEfNGEANR5"; -- DiamondRobux TEAM --
+    Duration = 5;
+})
+
+
+
+while wait() do
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer(16, "public")
+wait()
+for i,v in pairs(game.Players:GetPlayers()) do
+if v.Name ~= game.Players.LocalPlayer.Name then
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer(30, v)
+end
+end
+end
  
 s4:NewTextBox("Set WalkSpeed","WalkSpeed", function(v)
     pcall(function()
