@@ -83,7 +83,7 @@ s1:NewLabel("https://discord.gg/pEfNGEANR5")
 s1:NewLabel("https://discord.gg/PMCZs7ZMvR")
  
 s2:NewButton("Kill everyone with a gun","For Kill everyone with a gun", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/ENsACCP1"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/diamondrobux/DiamondHub-Breaking-Point/main/DiamondHub-Breaking-Point-kill%20everyone"))()
 end)
  
 s3:NewButton("ESP Players","For ESP Players", function()
